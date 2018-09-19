@@ -20,3 +20,7 @@ PiBBP.java kész, futtatva, screenshot a mappában.
 Liskov Hellyettesítés sértése
 liskovsert.cpp
 
+Parent-Child
+Megkezdve
+Myclass.java
+
