@@ -1,0 +1,35 @@
+
+nbatfai@hallg:~/masodikC++$ 
+cmake .
+--
+The C compiler identification is GNU
+...
+--
+Build files have been written to: /home/nbatfai/masodikC++
+nbatfai@hallg:~/masodikC++$ 
+make
+Scanning dependencies of target polargen
+[ 50%] Building CXX object 
+src/CMakeFiles/polargen.dir/polargen.cpp.o
+[100%] Building CXX object 
+src/CMakeFiles/polargen.dir/polargenteszt.cpp.o
+Linking CXX executable polargen
+[100%] Built target polargen
+nbatfai@hallg:~/masodikC++$ 
+src/polargen
+0.681487
+0.791811
+-
+0.452172
+0.305843
+-
+1.1143
+-
+2.67287
+0.923875
+0.690822
+-
+0.816956
+-
+0.422164
+nbatfai@hallg:~/masodikC++$
