@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude">    
+    <info>
+        <title>Samu Entropy</title>
+        <subtitle>ESPORT AND ARTIFICIAL INTELLIGENCE</subtitle>
+        <titleabbrev>ESAMU</titleabbrev>
+        <authorgroup>
+            <author>
+                <personname>
+                    <honorific>Dr</honorific>
+                    <surname>Bátfai</surname>
+                    <firstname>Norbert</firstname>        
+                </personname>  
+                <affiliation>
+                    <shortaffil>Assistant professor, DEIK.</shortaffil>
+                    <jobtitle>Assistant professor</jobtitle>
+                    <orgname>University of Debrecen, Faculty of Informatics</orgname>
+                    <orgdiv>Department of Information Technology</orgdiv>
+                    <address>
+                        <email>batfai.norbert@inf.unideb.hu</email>
+                        <email>nbatfai@gmail.com</email>
+                    </address>
+                </affiliation>
+                <address>
+                    <street>Kassai Street 26.</street>
+                    <city>Debrecen</city>
+                    <postcode>4028</postcode>
+                    <country>Hungary</country>
+                    <email>batfai.norbert@inf.unideb.hu</email>
+                    <otheraddr>
+                        <link xlink:href="http://arato.inf.unideb.hu/batfai.norbert">http://arato.inf.unideb.hu/batfai.norbert</link>
+                    </otheraddr>
+                </address>
+            </author>
+            <othercredit class="translator">
+                <personname>
+                    <firstname>Attila</firstname>
+                    <surname>Fodor</surname>
+                </personname>
+                <contrib>...
+                </contrib>
+            </othercredit>
+            <othercredit class="translator">
+                <personname>
+                    <firstname>Gergő</firstname>
+                    <surname>Bogacsovics</surname>
+                </personname>
+                <contrib>...
+                </contrib>
+            </othercredit>
+            <othercredit class="translator">
+                <personname>
+                    <firstname>János</firstname>
+                    <surname>Pogány</surname>
+                </personname>
+                <contrib>...
+                </contrib>
+            </othercredit>
+        </authorgroup>
+        <edition>ESAMU, Samu Entropy, 14 Oct 2016, v. en-0.0.4</edition>
+        <pubdate>2016</pubdate>
+        <copyright>
+            <year>2016</year>
+            <holder>Dr. Norbert Bátfai</holder>
+        </copyright>
+        <legalnotice>
+            <para>Samu Entropy
+            </para>
+            <para>                
+                Copyright (C) 2016, Norbert Bátfai. Ph.D., batfai.norbert@inf.unideb.hu, nbatfai@gmail.com
+            </para>
+            <para>
+                This program is free software: you can redistribute it and/or modify
+                it under the terms of the GNU General Public License as published by
+                the Free Software Foundation, either version 3 of the License, or
+                (at your option) any later version.
+            </para>
+            <para>
+                This program is distributed in the hope that it will be useful,
+                but WITHOUT ANY WARRANTY; without even the implied warranty of
+                MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+                GNU General Public License for more details.
+            </para>
+            <para>
+                You should have received a copy of the GNU General Public License
+                along with this program.  If not, see 
+                <link xlink:href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</link>.
+            </para>
+
+            <para>
+                <link xlink:href="http://gnu.hu/gplv3.html">http://gnu.hu/gplv3.html</link>                
+            </para>
+        </legalnotice>            
+        <revhistory>
+            <revision>
+                <revnumber>0.0.1</revnumber>
+                <date>2016-08-23</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>Initial document. Sent as an answer to the letter of the original idea(eBudapest2024), regarding the leading sport achievements, furthermore sent to the potential enquirers/investors.</revremark>
+            </revision>
+            <revision>
+                <revnumber>0.0.2</revnumber>
+                <date>2016-08-25</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>Improvements.</revremark>
+            </revision>
+            <revision>
+                <revnumber>0.0.3</revnumber>
+                <date>2016-09-02</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>Enhancement: the outlines of the standard and unexpected solution curves. Shared in DevRob2Psy.</revremark>
+            </revision>
+            <revision>
+                <revnumber>0.0.4</revnumber>
+                <date>2016-09-03</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>Improvements. Shared in the DevRob2Psy and UDPROG facebook groups.</revremark>
+            </revision>
+            <revision>
+                <revnumber>0.0.5</revnumber>
+                <date>2016-09-04</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>Improvements. The game experience. Shared in the DevRob2Psy and UDPROG facebook groups, furthermore sent to the potential enquirers via e-mail.</revremark>
+            </revision>
+            <revision>
+                <revnumber>0.0.6</revnumber>
+                <date>2016-09-05</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>Moved from LibreOffice to Word, due to technical difficulties (if there is interest, all further documentation will be in DobBook XML). The document was sent out again.</revremark>
+            </revision>
+            <revision>
+                <revnumber>0.0.7</revnumber>
+                <date>2016-09-14</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>Started the DocBook XML 5.1 transcription and the research plan.
+                </revremark>
+            </revision>
+            <revision>
+                <revnumber>0.0.8</revnumber>
+                <date>2016-09-15</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>Initial document tot the GitHub, version handling with git from now on, see the changelog: <link xlink:href="https://github.com/nbatfai/SamuEntropy">https://github.com/nbatfai/SamuEntropy</link>
+                </revremark>
+            </revision>
+            <!--
+            <revision>
+                <revnumber>0.0.</revnumber>
+                <date>2016-</date>
+                <authorinitials>nbatfai</authorinitials>
+                <revremark>Initial document release for comment.</revremark>
+            </revision>
+            -->
+        </revhistory>
+    </info>   
+    <xi:include href="samuentropy-glssry-en.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-glssry-hu.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>     
+    
+    <xi:include href="samuentropy-idea-intro-en.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-idea-intro-en.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>     
+    
+    <xi:include href="samuentropy-idea-research-en.xml">
+        <xi:fallback>
+            <para>
+                <emphasis>XInclude: samuentropy-idea-research-hu.xml file not found</emphasis>
+            </para>
+        </xi:fallback>
+    </xi:include>     
+    
+</book>
