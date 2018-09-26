@@ -24,3 +24,13 @@ Parent-Child
 Megkezdve
 Myclass.java
 
+Anti OO
+Megkezdve
+pi_bbp c/c++/c#/java 
+
+Hello, Android
+Megkezdve
+Fájlok letöltve, felélesztve
+
+Ciklomatikus Komplexitás
+cc.cpp + magyarázat
