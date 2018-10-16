@@ -10,3 +10,6 @@ b4tf41
 
 javac -encoding windows-1252 MandelbrotHalmazNagyító.java
 javac -encoding UTF-8 MandelbrotHalmazNagyító.java
+
+Munkakönyvtáron belül
+java javattanitok.LabirintusJáték labirintus.txt
