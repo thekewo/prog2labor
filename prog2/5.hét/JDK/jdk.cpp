@@ -5,9 +5,9 @@
    */
 
 #include "boost/filesystem/operations.hpp" // includes boost/filesystem/path.hpp
-#include "boost/filesystem/fstream.hpp"    // ditto
+#include "boost/filesystem/fstream.hpp"    
 #include "boost/filesystem.hpp"
-#include <iostream>                        // for std::cout
+#include <iostream>                        
 
 using namespace boost::filesystem;
 using namespace std;
@@ -27,7 +27,7 @@ void dirent(path p){
     if (exists(p)) {
       
       if (is_regular_file(p)){
-       // cout << p << " size is " << file_size(p) << '\n';
+        cout << p << " size is " << file_size(p) << '\n';
        
        if (getExt(p) == ".java"){
        		counter++;
@@ -36,11 +36,11 @@ void dirent(path p){
     }
 
       else if (is_directory(p)) {
-        //cout << p << " is a directory containing:\n";
+        cout << p << " is a directory containing:\n";
 
         for (directory_entry& x : directory_iterator(p)){
         
-         // cout << "    " << x.path() << '\n'; 
+          cout << "    " << x.path() << '\n'; 
           dirent(x.path());
       		
         }
