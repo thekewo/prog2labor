@@ -117,4 +117,4 @@ public class PiBBPBench {
         System.TimeSpan delta = System.DateTime.Now.Subtract(kezd);
         System.Console.WriteLine(delta.TotalMilliseconds/1000.0);
     }
-} 
+}

@@ -110,4 +110,4 @@ main ()
   printf ("%d\n", jegy);
   delta = clock () - delta;
   printf ("%f\n", (double) delta / CLOCKS_PER_SEC);
-} 
+}

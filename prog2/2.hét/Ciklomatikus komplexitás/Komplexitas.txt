@@ -1,0 +1,9 @@
+PiBBP.java Ciklomatikus komplexitása:
+
+-public PiBBP(int d) komplexitása: 3 ( 1 + 1db while + 1db if)
+-public double d16Sj(int d, int j) komplexitása: 2 ( 1 + 1 db for)
+-public long n16modk(int n, int k) komplexitása: 5 ( 1 + 2 db while + 2db if)
+-public String toString() komplexitása : 1 (1 + 0)
+-public static void main(String args[]) komplexitása : 1 (1 + 0)
+
+(http://gmetrics.sourceforge.net/gmetrics-CyclomaticComplexityMetric.html alapján)
