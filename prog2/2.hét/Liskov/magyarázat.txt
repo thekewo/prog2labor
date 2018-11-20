@@ -1,0 +1,1 @@
+Liskov helyettesítési elv	Minden osztály legyen helyettesíthetõ a leszármazott osztályával anélkül, hogy a program helyes mûködése megváltozna.
