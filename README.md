@@ -34,3 +34,28 @@ Fájlok letöltve, felélesztve
 
 Ciklomatikus Komplexitás
 cc.cpp + magyarázat
+
+3.hét
+
+BPMN,UML TO CODE,SZÜLŐ-GYEREK,ECHO megkezdve
+
+4.hét
+
+l334d1c4,FULLSCREEN,ENCODING megkezdve
+
+5.hét
+JDK,MÁSOLÓ-MOZGATÓ,PERCEPTRON megkezdve
+
+6.hét
+CUSTOMALLOC,ALTERNATÍVTABELLA,STL MAPmegkezdve
+
+7.hét
+OOCWC,OSM,BRAINB,SAMUCAM megkezdve
+
+8.hét
+PORTSCAN,ANDROIDGAME,ÖSSZEFOGALALÓ megkezdve
+
+9.hét
+ANDROID TF TELEFON,ÖSSZEFOGLALÓ megkezdve
+
+
