@@ -43,7 +43,7 @@ void mapPrinter(std::map<std::string, int>& in){
 
 void mapFiller(std::map<std::string, int> &in){
     for(int i = 0; i<10; i++){
-        std::string temp = "ember" + std::to_string(i);
+        std::string temp = "wat" + std::to_string(i);
         in[temp] = randomNumber(0, 1000);
     }
 }
