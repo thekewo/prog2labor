@@ -1,0 +1,3 @@
+Egy kereskedés számítógép-alkatrészek és számítógép-konfigurációk értékesítésével foglalkozik.
+A kereskedés alkatrészeinek és konfigurációinak nyilvántartása.
+A termék állományból való betöltése,képernyőre listázás,állományba való kiírása és az árképzés rugalmas kialakítása.

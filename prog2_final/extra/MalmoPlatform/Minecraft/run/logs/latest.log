@@ -1,0 +1,617 @@
+[09:31:27] [Client thread/INFO]: Setting user: Player326
+[09:31:37] [Client thread/WARN]: Skipping bad option: lastServer:
+[09:31:37] [Client thread/INFO]: LWJGL Version: 2.9.4
+[09:31:39] [Client thread/INFO]: [STDOUT]: MALMO: Attempting to transform MinecraftServer
+[09:31:39] [Client thread/INFO]: [STDOUT]: MALMO: Found GlStateManager, attempting to transform it
+[09:31:39] [Client thread/INFO]: [STDOUT]: MALMO: Found GlStateManager.bindTexture() method, attempting to transform it
+[09:31:39] [Client thread/INFO]: [STDOUT]: MALMO: Hooked into call to GlStateManager.bindTexture()
+[09:31:40] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
+// Oh - I know what I did wrong!
+
+Time: 11/30/18 9:31 AM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Linux (amd64) version 4.15.0-39-generic
+	Java Version: 1.8.0_181, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 181395952 bytes (172 MB) / 354942976 bytes (338 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 1 total; -Xmx2G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+OverclockingPlugin (MalmoMod-0.37.0.jar)
+  com.microsoft.Malmo.OverclockingClassTransformer
+	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 18.0.5' Renderer: 'Mesa DRI Intel(R) HD Graphics 400 (Braswell) '
+[09:31:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Microsoft Malmo Mod
+[09:31:51] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in /home/kewo/MalmoPlatform/Minecraft/build/libs/MalmoMod-0.37.0.jar
+[09:31:51] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in /home/kewo/MalmoPlatform/Minecraft/build/libs/MalmoMod-0.37.0.jar
+[09:31:51] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in /home/kewo/MalmoPlatform/Minecraft/build/libs/MalmoMod-0.37.0.jar
+[09:31:52] [Client thread/INFO]: [STDOUT]: Testing schemas against internal version number: 0.37
+[09:31:56] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[09:31:57] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[09:31:57] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[09:31:57] [Thread-7/INFO]: OpenAL initialized.
+[09:31:57] [Sound Library Loader/INFO]: Sound engine started
+[09:32:05] [Client thread/INFO]: Created: 16x16 textures-atlas
+[09:32:08] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_MOD_READY
+[09:32:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Microsoft Malmo Mod
+[09:32:08] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in /home/kewo/MalmoPlatform/Minecraft/build/libs/MalmoMod-0.37.0.jar
+[09:32:08] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in /home/kewo/MalmoPlatform/Minecraft/build/libs/MalmoMod-0.37.0.jar
+[09:32:08] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in /home/kewo/MalmoPlatform/Minecraft/build/libs/MalmoMod-0.37.0.jar
+[09:32:12] [Client thread/INFO]: SoundSystem shutting down...
+[09:32:12] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[09:32:12] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[09:32:12] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[09:32:12] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[09:32:12] [Thread-9/INFO]: OpenAL initialized.
+[09:32:12] [Sound Library Loader/INFO]: Sound engine started
+[09:32:18] [Client thread/INFO]: Created: 512x512 textures-atlas
+[09:32:25] [Client thread/WARN]: Skipping bad option: lastServer:
+[09:32:27] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_MOD_READY
+[09:32:27] [Thread-11/INFO]: [STDOUT]: INFO: ->mcp(0) Listening for messages on port 10000
+[09:32:27] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[09:32:27] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[09:32:29] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[09:33:51] [Thread-13/INFO]: [STDOUT]: Received from localhost:MALMO_REQUEST_CLIENT:0.37.0:20000:
+[09:33:51] [Thread-13/INFO]: [STDOUT]: ==== RES:  - -1543566831100
+[09:33:51] [Thread-13/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[09:33:51] [Thread-15/INFO]: [STDOUT]: Received from localhost:<?xml version="1.0" encoding="utf-8"?><MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>Defaut Mission</Summary></About><ServerSection><ServerHandlers><FlatWorldGenerator generatorString="3;7,220*1,5*3,2;3;,biome_1"/><ServerQuitFromTimeUp timeLimitMs="10000"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection><Name>A default agent</Name><AgentStart/><AgentHandlers><ObservationFromFullStats/><ContinuousMovementCommands/></AgentHandlers></AgentSection></Mission><ExperimentUID/><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>10000</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>10468</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLu
+[09:33:53] [Thread-15/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[09:33:54] [Client thread/INFO]: [STDOUT]: Mission received: Defaut Mission
+[09:33:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[09:33:54] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[09:33:54] [Thread-16/INFO]: [STDOUT]: INFO: ->com(0) Listening for messages on port 10891
+[09:33:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[09:33:54] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[09:33:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[09:33:55] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[09:33:58] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[09:33:58] [Server thread/INFO]: Generating keypair
+[09:33:59] [Server thread/WARN]: Unable to find spawn biome
+[09:34:08] [Server thread/INFO]: Preparing start region for level 0
+[09:34:09] [Server thread/INFO]: Preparing spawn area: 12%
+[09:34:10] [Server thread/INFO]: Preparing spawn area: 23%
+[09:34:11] [Server thread/INFO]: Preparing spawn area: 34%
+[09:34:12] [Server thread/INFO]: Preparing spawn area: 45%
+[09:34:13] [Server thread/INFO]: Preparing spawn area: 58%
+[09:34:14] [Server thread/INFO]: Preparing spawn area: 71%
+[09:34:15] [Server thread/INFO]: Preparing spawn area: 83%
+[09:34:16] [Server thread/INFO]: Preparing spawn area: 98%
+[09:34:16] [Server thread/INFO]: Changing view distance to 6, from 10
+[09:34:19] [Client thread/INFO]: Deleting level TEMP_10000_73e45ee7-5d1e-4d6e-8216-056efeffffef
+[09:34:19] [Client thread/INFO]: Attempt 1...
+[09:34:19] [Netty Local Client IO #0/INFO]: [STDOUT]: Transformed Name: net.minecraft.client.entity.EntityOtherPlayerMP
+[09:34:19] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Attempting to transform MinecraftServer
+[09:34:19] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Found EntityOtherPlayerMP, attempting to transform it
+[09:34:20] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[09:34:20] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[09:34:20] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[09:34:20] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[09:34:20] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[09:34:20] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[09:34:20] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[09:34:20] [Server thread/INFO]: [STDOUT]: Mission received: Defaut Mission
+[09:34:20] [Server thread/INFO]: Received mission: §9Defaut Mission
+[09:34:20] [Server thread/INFO]: Source: §alocalhost
+[09:34:20] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[09:34:20] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[09:34:20] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[09:34:20] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[09:34:20] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[09:34:20] [Server thread/INFO]: [STDOUT]: >>>> A default agent
+[09:34:20] [Server thread/INFO]: A default agent[local:E:d3babd42] logged in with entity id 0 at (68.5, 227.0, -116.5)
+[09:34:20] [Server thread/INFO]: A default agent joined the game
+[09:34:24] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - A default agent
+[09:34:24] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - A default agent
+[09:34:25] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - A default agent
+[09:34:25] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - A default agent
+[09:34:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5330ms behind, skipping 106 tick(s)
+[09:34:27] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[09:34:27] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[09:34:27] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[09:34:27] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[09:34:27] [Client thread/INFO]: [CHAT] §l10...
+[09:34:28] [Client thread/INFO]: [CHAT] §l9...
+[09:34:29] [Client thread/INFO]: [CHAT] §l8...
+[09:34:30] [Client thread/INFO]: [CHAT] §l7...
+[09:34:31] [Client thread/INFO]: [CHAT] §l6...
+[09:34:32] [Client thread/INFO]: [CHAT] §c§l5...
+[09:34:33] [Client thread/INFO]: [CHAT] §c§l4...
+[09:34:34] [Client thread/INFO]: [CHAT] §c§l3...
+[09:34:35] [Client thread/INFO]: [CHAT] §c§l2...
+[09:34:36] [Client thread/INFO]: [CHAT] §c§l1...
+[09:34:37] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[09:34:37] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[09:34:37] [Client thread/INFO]: [CHAT] §c§l0...
+[09:34:37] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[09:34:37] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[09:34:37] [Client thread/INFO]: [STDOUT]: Sending mission ended message to localhost:10468.
+[09:34:37] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[09:34:37] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[09:34:37] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[09:34:37] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[09:34:37] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[09:34:37] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[09:34:37] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[09:34:37] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[09:34:39] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[09:35:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6578ms behind, skipping 131 tick(s)
+[09:35:29] [Thread-21/INFO]: [STDOUT]: Received from localhost:MALMO_REQUEST_CLIENT:0.37.0:20000:
+[09:35:29] [Thread-21/INFO]: [STDOUT]: ==== RES:  - -78878
+[09:35:29] [Thread-21/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[09:35:29] [Thread-23/INFO]: [STDOUT]: Received from localhost:<?xml version="1.0" encoding="utf-8"?><MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission>                                            <About>                    <Summary>Run the maze!</Summary></About><ModSettings>                    <MsPerTick>50</MsPerTick></ModSettings><ServerSection>                                <ServerInitialConditions>                            <AllowSpawning>false</AllowSpawning></ServerInitialConditions><ServerHandlers>                                                                                <FlatWorldGenerator generatorString="3;7,220*1,5*3,2;3;,biome_1"/><MazeDecorator>                                                                                                                    <SizeAndPosition length="60" width="60" yOrigin="225" zOrigin="0" height="180"/><GapProbability variance="0.4">0.5</GapProbability><Seed>random</Seed><MaterialSeed>random</MaterialSeed><Al
+[09:35:30] [Thread-23/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[09:35:30] [Client thread/INFO]: [STDOUT]: Mission received: Run the maze!
+[09:35:30] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[09:35:30] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[09:35:30] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[09:35:30] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[09:35:30] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[09:35:30] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[09:35:30] [Server thread/INFO]: Saving and pausing game...
+[09:35:30] [Server thread/INFO]: Saving chunks for level 'TEMP_10000_e8dabeab-f42b-4d33-b1ba-244c6466f075'/Overworld
+[09:35:30] [Server thread/INFO]: Saving chunks for level 'TEMP_10000_e8dabeab-f42b-4d33-b1ba-244c6466f075'/Nether
+[09:35:30] [Server thread/INFO]: Saving chunks for level 'TEMP_10000_e8dabeab-f42b-4d33-b1ba-244c6466f075'/The End
+[09:35:30] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[09:35:30] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[09:35:31] [Server thread/INFO]: Stopping server
+[09:35:31] [Server thread/INFO]: Saving players
+[09:35:31] [Server thread/INFO]: A default agent lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[09:35:31] [Server thread/INFO]: A default agent left the game
+[09:35:31] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[09:35:31] [Server thread/INFO]: Saving worlds
+[09:35:31] [Server thread/INFO]: Saving chunks for level 'TEMP_10000_e8dabeab-f42b-4d33-b1ba-244c6466f075'/Overworld
+[09:35:31] [Server thread/INFO]: Saving chunks for level 'TEMP_10000_e8dabeab-f42b-4d33-b1ba-244c6466f075'/Nether
+[09:35:31] [Server thread/INFO]: Saving chunks for level 'TEMP_10000_e8dabeab-f42b-4d33-b1ba-244c6466f075'/The End
+[09:35:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[09:35:32] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[09:35:33] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[09:35:33] [Server thread/INFO]: Generating keypair
+[09:35:34] [Server thread/WARN]: Unable to find spawn biome
+[09:35:42] [Server thread/INFO]: Preparing start region for level 0
+[09:35:43] [Server thread/INFO]: Preparing spawn area: 14%
+[09:35:44] [Server thread/INFO]: Preparing spawn area: 25%
+[09:35:45] [Server thread/INFO]: Preparing spawn area: 35%
+[09:35:46] [Server thread/INFO]: Preparing spawn area: 46%
+[09:35:47] [Server thread/INFO]: Preparing spawn area: 58%
+[09:35:48] [Server thread/INFO]: Preparing spawn area: 69%
+[09:35:49] [Server thread/INFO]: Preparing spawn area: 82%
+[09:35:50] [Server thread/INFO]: Preparing spawn area: 96%
+[09:35:50] [Server thread/INFO]: Changing view distance to 6, from 10
+[09:35:50] [Client thread/INFO]: Deleting level TEMP_10000_e8dabeab-f42b-4d33-b1ba-244c6466f075
+[09:35:50] [Client thread/INFO]: Attempt 1...
+[09:35:50] [Server thread/INFO]: James Bond[local:E:3d153b4c] logged in with entity id 2 at (352.5, 227.0, -128.5)
+[09:35:50] [Server thread/INFO]: James Bond joined the game
+[09:35:50] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[09:35:50] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[09:35:51] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[09:35:51] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[09:35:51] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[09:35:51] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[09:35:51] [Server thread/INFO]: [STDOUT]: Mission received: Run the maze!
+[09:35:51] [Server thread/INFO]: Received mission: §9Run the maze!
+[09:35:51] [Server thread/INFO]: Source: §alocalhost
+[09:35:51] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[09:35:51] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[09:35:51] [Server thread/INFO]: [STDOUT]: Attempting to find subgoals...
+[09:35:51] [Server thread/INFO]: [STDOUT]: Found subgoals.
+[09:35:53] [Client thread/INFO]: [CHAT] Received mission: §9Run the maze!
+[09:35:53] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[09:35:54] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[09:35:54] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:35:54] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:35:54] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:35:54] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:35:54] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[09:35:54] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[09:35:54] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[09:35:54] [Server thread/INFO]: [STDOUT]: >>>> James Bond
+[09:35:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3769ms behind, skipping 75 tick(s)
+[09:35:55] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:35:55] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[09:35:55] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[09:35:55] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[09:35:56] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[09:35:56] [Client thread/INFO]: [CHAT] §l45...
+[09:35:57] [Server thread/INFO]: [STDOUT]: Warning: managed 7/20 ticks this second.
+[09:35:58] [Server thread/INFO]: [STDOUT]: Warning: managed 6/20 ticks this second.
+[09:35:59] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[09:35:59] [Client thread/INFO]: [CHAT] §l44...
+[09:36:00] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[09:36:01] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[09:36:02] [Client thread/INFO]: [CHAT] §l43...
+[09:36:02] [Server thread/INFO]: [STDOUT]: Warning: managed 7/20 ticks this second.
+[09:36:03] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[09:36:04] [Server thread/INFO]: [STDOUT]: Warning: managed 6/20 ticks this second.
+[09:36:05] [Client thread/INFO]: [CHAT] §l42...
+[09:36:06] [Server thread/INFO]: [STDOUT]: Warning: managed 6/20 ticks this second.
+[09:36:07] [Server thread/INFO]: [STDOUT]: Warning: managed 5/20 ticks this second.
+[09:36:08] [Server thread/INFO]: [STDOUT]: Warning: managed 4/20 ticks this second.
+[09:36:09] [Server thread/INFO]: [STDOUT]: Warning: managed 4/20 ticks this second.
+[09:36:09] [Client thread/INFO]: [CHAT] §l41...
+[09:36:09] [Client thread/INFO]: [CHAT] §l40...
+[09:36:10] [Client thread/INFO]: [CHAT] §l39...
+[09:36:10] [Client thread/INFO]: [CHAT] §l38...
+[09:36:10] [Client thread/INFO]: [CHAT] §l37...
+[09:36:11] [Client thread/INFO]: [CHAT] §l36...
+[09:36:11] [Client thread/INFO]: [CHAT] §l35...
+[09:36:11] [Client thread/INFO]: [CHAT] §l34...
+[09:36:12] [Client thread/INFO]: [CHAT] §l33...
+[09:36:12] [Client thread/INFO]: [CHAT] §l32...
+[09:36:12] [Client thread/INFO]: [CHAT] §l31...
+[09:36:12] [Client thread/INFO]: [CHAT] §l30...
+[09:36:13] [Client thread/INFO]: [CHAT] §l29...
+[09:36:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2207ms behind, skipping 44 tick(s)
+[09:36:13] [Client thread/INFO]: [CHAT] §l28...
+[09:36:13] [Client thread/INFO]: [CHAT] §l27...
+[09:36:13] [Client thread/INFO]: [CHAT] §l26...
+[09:36:14] [Client thread/INFO]: [CHAT] §l25...
+[09:36:19] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[09:36:19] [Client thread/INFO]: [CHAT] §l24...
+[09:36:19] [Client thread/INFO]: [CHAT] §l23...
+[09:36:20] [Client thread/INFO]: [CHAT] §l22...
+[09:36:20] [Client thread/INFO]: [CHAT] §l21...
+[09:36:20] [Client thread/INFO]: [CHAT] §l20...
+[09:36:21] [Client thread/INFO]: [CHAT] §l19...
+[09:36:21] [Client thread/INFO]: [CHAT] §l18...
+[09:36:22] [Client thread/INFO]: [CHAT] §l17...
+[09:36:23] [Client thread/INFO]: [CHAT] §l16...
+[09:36:24] [Client thread/INFO]: [CHAT] §l15...
+[09:36:25] [Client thread/INFO]: [CHAT] §l14...
+[09:36:27] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[09:36:27] [Client thread/INFO]: [CHAT] §l13...
+[09:36:27] [Client thread/INFO]: [CHAT] §l12...
+[09:36:28] [Client thread/INFO]: [CHAT] §l11...
+[09:36:29] [Client thread/INFO]: [CHAT] §l10...
+[09:36:31] [Client thread/INFO]: [CHAT] §l9...
+[09:36:31] [Server thread/INFO]: [STDOUT]: Warning: managed 7/20 ticks this second.
+[09:36:32] [Client thread/INFO]: [CHAT] §l8...
+[09:36:32] [Client thread/INFO]: [CHAT] §l7...
+[09:36:33] [Client thread/INFO]: [CHAT] §l6...
+[09:36:34] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[09:36:34] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[09:36:35] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[09:36:35] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[09:36:35] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[09:36:35] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[09:36:35] [Client thread/INFO]: [STDOUT]: Sending mission ended message to localhost:10821.
+[09:36:35] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[09:36:35] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[09:36:35] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[09:36:35] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[09:36:35] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[09:36:35] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[09:36:35] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[09:36:35] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[09:36:35] [Client thread/INFO]: [STDOUT]: JETTISONING 2 COMMANDS
+[09:36:36] [Thread-29/INFO]: [STDOUT]: Received from localhost:MALMO_REQUEST_CLIENT:0.37.0:20000:
+[09:36:36] [Thread-29/INFO]: [STDOUT]: ==== RES:  - -46216
+[09:36:36] [Thread-29/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[09:36:36] [Thread-31/INFO]: [STDOUT]: Received from localhost:<?xml version="1.0" encoding="utf-8"?><MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission>                                            <About>                    <Summary>Run the maze!</Summary></About><ModSettings>                    <MsPerTick>50</MsPerTick></ModSettings><ServerSection>                                <ServerInitialConditions>                            <AllowSpawning>false</AllowSpawning></ServerInitialConditions><ServerHandlers>                                                                                <FlatWorldGenerator generatorString="3;7,220*1,5*3,2;3;,biome_1"/><MazeDecorator>                                                                                                    <SizeAndPosition length="60" width="60" yOrigin="225" zOrigin="0" height="180"/><GapProbability variance="0.4">0.5</GapProbability><Seed>random</Seed><MaterialSeed>random</MaterialSeed><AllowDiagonalMovem
+[09:36:36] [Thread-31/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[09:36:36] [Client thread/INFO]: [STDOUT]: Mission received: Run the maze!
+[09:36:36] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[09:36:36] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[09:36:36] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[09:36:36] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[09:36:36] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[09:36:36] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[09:36:36] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:36] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through queue.
+[09:36:36] [Server thread/INFO]: [STDOUT]: Mission received: Run the maze!
+[09:36:36] [Server thread/INFO]: Received mission: §9Run the maze!
+[09:36:36] [Server thread/INFO]: Source: §alocalhost
+[09:36:36] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[09:36:36] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[09:36:36] [Client thread/INFO]: [CHAT] Received mission: §9Run the maze!
+[09:36:36] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[09:36:36] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:36] [Server thread/INFO]: [STDOUT]: Attempting to find subgoals...
+[09:36:36] [Server thread/INFO]: [STDOUT]: Found subgoals.
+[09:36:36] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:38] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:38] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:38] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:39] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:39] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:39] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:39] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[09:36:39] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3178ms behind, skipping 63 tick(s)
+[09:36:39] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[09:36:39] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[09:36:39] [Server thread/INFO]: [STDOUT]: >>>> James Bond
+[09:36:40] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:40] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:40] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:40] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:41] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:41] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:41] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:41] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:44] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:44] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:44] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:45] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:45] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:45] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:45] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:46] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:46] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:46] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:46] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:47] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:47] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:47] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:48] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:48] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:48] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:48] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:49] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:49] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:36:50] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[09:36:50] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[09:36:51] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[09:36:53] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[09:36:55] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[09:36:55] [Client thread/INFO]: [CHAT] §l45...
+[09:36:58] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[09:37:00] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[09:37:02] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[09:37:04] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[09:37:06] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[09:37:08] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[09:37:10] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[09:37:11] [Client thread/INFO]: [CHAT] §l44...
+[09:37:11] [Client thread/INFO]: [CHAT] §l43...
+[09:37:11] [Client thread/INFO]: [CHAT] §l42...
+[09:37:11] [Client thread/INFO]: [CHAT] §l41...
+[09:37:12] [Client thread/INFO]: [CHAT] §l40...
+[09:37:12] [Client thread/INFO]: [CHAT] §l39...
+[09:37:12] [Client thread/INFO]: [CHAT] §l38...
+[09:37:12] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[09:37:12] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[09:37:12] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[09:37:12] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[09:37:12] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[09:37:12] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[09:37:12] [Client thread/INFO]: [STDOUT]: Sending mission ended message to localhost:10821.
+[09:37:12] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[09:37:12] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[09:37:12] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[09:37:12] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[09:37:12] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[09:37:12] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[09:37:12] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[09:37:12] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[09:37:12] [Client thread/INFO]: [STDOUT]: JETTISONING 2 COMMANDS
+[09:37:13] [Thread-35/INFO]: [STDOUT]: Received from localhost:MALMO_REQUEST_CLIENT:0.37.0:20000:
+[09:37:13] [Thread-35/INFO]: [STDOUT]: ==== RES:  - -17372
+[09:37:13] [Thread-35/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[09:37:13] [Thread-37/INFO]: [STDOUT]: Received from localhost:<?xml version="1.0" encoding="utf-8"?><MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission>                                            <About>                    <Summary>Run the maze!</Summary></About><ModSettings>                    <MsPerTick>50</MsPerTick></ModSettings><ServerSection>                                <ServerInitialConditions>                            <AllowSpawning>false</AllowSpawning></ServerInitialConditions><ServerHandlers>                                                                                <FlatWorldGenerator generatorString="3;7,220*1,5*3,2;3;,biome_1"/><MazeDecorator>                                                                                                           <SizeAndPosition length="60" width="60" yOrigin="225" zOrigin="0" height="180"/><GapProbability>0.2</GapProbability><Seed>random</Seed><MaterialSeed>random</MaterialSeed><AllowDiagonalMovement>fals
+[09:37:13] [Thread-37/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[09:37:13] [Client thread/INFO]: [STDOUT]: Mission received: Run the maze!
+[09:37:13] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[09:37:13] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[09:37:13] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[09:37:13] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[09:37:13] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[09:37:13] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[09:37:13] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:13] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through queue.
+[09:37:13] [Server thread/INFO]: [STDOUT]: Mission received: Run the maze!
+[09:37:13] [Server thread/INFO]: Received mission: §9Run the maze!
+[09:37:13] [Server thread/INFO]: Source: §alocalhost
+[09:37:13] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[09:37:13] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[09:37:14] [Server thread/INFO]: [STDOUT]: Attempting to find subgoals...
+[09:37:14] [Server thread/INFO]: [STDOUT]: Found subgoals.
+[09:37:14] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:14] [Client thread/INFO]: [CHAT] Received mission: §9Run the maze!
+[09:37:14] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[09:37:14] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:14] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:14] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:14] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:14] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:15] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:15] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:15] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:15] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:16] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:16] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:16] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:17] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:17] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:17] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:17] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:17] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[09:37:17] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[09:37:17] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[09:37:17] [Server thread/INFO]: [STDOUT]: >>>> James Bond
+[09:37:18] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:18] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[09:37:18] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[09:37:18] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[09:37:19] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[09:37:19] [Client thread/INFO]: [CHAT] §l45...
+[09:37:20] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[09:37:21] [Client thread/INFO]: [CHAT] §l44...
+[09:37:21] [Client thread/INFO]: [CHAT] §l43...
+[09:37:21] [Client thread/INFO]: [CHAT] §l42...
+[09:37:21] [Client thread/INFO]: [CHAT] §l41...
+[09:37:22] [Client thread/INFO]: [CHAT] §l40...
+[09:37:22] [Client thread/INFO]: [CHAT] §l39...
+[09:37:22] [Client thread/INFO]: [CHAT] §l38...
+[09:37:22] [Client thread/INFO]: [CHAT] §l37...
+[09:37:22] [Client thread/INFO]: [CHAT] §l36...
+[09:37:22] [Client thread/INFO]: [CHAT] §l35...
+[09:37:22] [Client thread/INFO]: [CHAT] §l34...
+[09:37:23] [Client thread/INFO]: [CHAT] §l33...
+[09:37:23] [Client thread/INFO]: [CHAT] §l32...
+[09:37:23] [Client thread/INFO]: [CHAT] §l31...
+[09:37:23] [Client thread/INFO]: [CHAT] §l30...
+[09:37:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 12825ms behind, skipping 256 tick(s)
+[09:37:24] [Client thread/INFO]: [CHAT] §l29...
+[09:37:24] [Client thread/INFO]: [CHAT] §l28...
+[09:37:24] [Client thread/INFO]: [CHAT] §l27...
+[09:37:25] [Client thread/INFO]: [CHAT] §l26...
+[09:37:26] [Client thread/INFO]: [CHAT] §l25...
+[09:37:27] [Client thread/INFO]: [CHAT] §l24...
+[09:37:28] [Client thread/INFO]: [CHAT] §l23...
+[09:37:29] [Client thread/INFO]: [CHAT] §l22...
+[09:37:30] [Client thread/INFO]: [CHAT] §l21...
+[09:37:31] [Client thread/INFO]: [CHAT] §l20...
+[09:37:32] [Client thread/INFO]: [CHAT] §l19...
+[09:37:33] [Client thread/INFO]: [CHAT] §l18...
+[09:37:34] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[09:37:34] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[09:37:34] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[09:37:34] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[09:37:34] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[09:37:34] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[09:37:34] [Client thread/INFO]: [STDOUT]: Sending mission ended message to localhost:10821.
+[09:37:34] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[09:37:34] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[09:37:34] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[09:37:34] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[09:37:34] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[09:37:34] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[09:37:34] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[09:37:34] [Client thread/INFO]: [STDOUT]: JETTISONING 2 COMMANDS
+[09:37:35] [Thread-41/INFO]: [STDOUT]: Received from localhost:MALMO_REQUEST_CLIENT:0.37.0:20000:
+[09:37:35] [Thread-41/INFO]: [STDOUT]: ==== RES:  - -1441
+[09:37:35] [Thread-41/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[09:37:35] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[09:37:35] [Thread-43/INFO]: [STDOUT]: Received from localhost:<?xml version="1.0" encoding="utf-8"?><MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission>                                            <About>                    <Summary>Run the maze!</Summary></About><ModSettings>                    <MsPerTick>50</MsPerTick></ModSettings><ServerSection>                                <ServerInitialConditions>                            <AllowSpawning>false</AllowSpawning></ServerInitialConditions><ServerHandlers>                                                                                <FlatWorldGenerator generatorString="3;7,220*1,5*3,2;3;,biome_1"/><MazeDecorator>                                                                                                                    <SizeAndPosition length="60" width="60" yOrigin="225" zOrigin="0" height="180"/><GapProbability variance="0.4">0.5</GapProbability><Seed>random</Seed><MaterialSeed>random</MaterialSeed><Al
+[09:37:35] [Thread-43/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[09:37:35] [Client thread/INFO]: [STDOUT]: Mission received: Run the maze!
+[09:37:35] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[09:37:35] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[09:37:35] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[09:37:35] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[09:37:35] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[09:37:35] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[09:37:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:35] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through queue.
+[09:37:35] [Server thread/INFO]: [STDOUT]: Mission received: Run the maze!
+[09:37:35] [Server thread/INFO]: Received mission: §9Run the maze!
+[09:37:35] [Server thread/INFO]: Source: §alocalhost
+[09:37:35] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[09:37:35] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[09:37:35] [Client thread/INFO]: [CHAT] Received mission: §9Run the maze!
+[09:37:35] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[09:37:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:35] [Server thread/INFO]: [STDOUT]: Attempting to find subgoals...
+[09:37:35] [Server thread/INFO]: [STDOUT]: Found subgoals.
+[09:37:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:36] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:36] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:36] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:36] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:38] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:38] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:38] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:39] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:39] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:39] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:39] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:40] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:40] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:40] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:40] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:41] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:41] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:41] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:44] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:44] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:44] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:45] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:45] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:45] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:45] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:46] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:46] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:46] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:46] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[09:37:46] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[09:37:46] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[09:37:46] [Server thread/INFO]: [STDOUT]: >>>> James Bond
+[09:37:46] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 11917ms behind, skipping 238 tick(s)
+[09:37:47] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - James Bond
+[09:37:47] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[09:37:47] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[09:37:48] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[09:37:48] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[09:37:48] [Client thread/INFO]: [CHAT] §l45...
+[09:37:49] [Server thread/INFO]: [STDOUT]: Warning: managed 3/20 ticks this second.
+[09:37:50] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[09:37:51] [Client thread/INFO]: [CHAT] §l44...
+[09:37:51] [Client thread/INFO]: [CHAT] §l43...
+[09:37:51] [Client thread/INFO]: [CHAT] §l42...
+[09:37:51] [Client thread/INFO]: [CHAT] §l41...
+[09:37:52] [Client thread/INFO]: [CHAT] §l40...
+[09:37:52] [Client thread/INFO]: [STDOUT]: SEVERE: <-obs(localhost:10887) Failed to send TCP bytes: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+[09:37:52] [Client thread/INFO]: [STDOUT]: SEVERE: <-mcp(localhost:10821) Failed to send TCP bytes -- retrying : java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+[09:37:52] [Client thread/INFO]: [STDOUT]: SEVERE: <-obs(localhost:10887) Failed to send TCP bytes: java.util.concurrent.ExecutionException: java.nio.channels.ClosedChannelException
+[09:37:53] [Client thread/INFO]: [STDOUT]: SEVERE: <-obs(localhost:10887) Failed to send TCP bytes: java.util.concurrent.ExecutionException: java.nio.channels.ClosedChannelException
+[09:37:53] [Client thread/INFO]: [STDOUT]: SEVERE: <-obs(localhost:10887) Failed to send TCP bytes: java.util.concurrent.ExecutionException: java.nio.channels.ClosedChannelException
+[09:37:53] [Client thread/INFO]: [STDOUT]: ERROR: TCP messages are not getting through - quitting mission.
+[09:37:53] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[09:37:53] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[09:37:53] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[09:37:53] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[09:37:53] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[09:37:53] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[09:37:53] [Client thread/INFO]: [STDOUT]: Sending mission ended message to localhost:10821.
+[09:37:53] [Client thread/INFO]: [STDOUT]: SEVERE: <-mcp(localhost:10821) Failed to send TCP bytes: java.util.concurrent.ExecutionException: java.io.IOException: Connection reset by peer
+[09:37:53] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[09:37:53] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[09:37:53] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[09:37:53] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[09:37:53] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[09:37:53] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[09:37:53] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[09:37:53] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[09:37:54] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[09:37:55] [Client thread/INFO]: Stopping!
+[09:37:55] [Server thread/INFO]: Stopping server
+[09:37:55] [Server thread/INFO]: Saving players
+[09:37:55] [Server thread/INFO]: Saving worlds
+[09:37:55] [Server thread/INFO]: Saving chunks for level 'TEMP_10000_7983b083-20ad-4b42-b9c1-27da87f0c8b3'/Overworld
+[09:37:55] [Server thread/INFO]: Saving chunks for level 'TEMP_10000_7983b083-20ad-4b42-b9c1-27da87f0c8b3'/Nether
+[09:37:55] [Server thread/INFO]: Saving chunks for level 'TEMP_10000_7983b083-20ad-4b42-b9c1-27da87f0c8b3'/The End
+[09:37:56] [Client thread/INFO]: SoundSystem shutting down...
+[09:37:56] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

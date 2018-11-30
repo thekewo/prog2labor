@@ -1,0 +1,6 @@
+./Szörny.java
+./Hős.java
+./RosszLabirintusKivétel.java
+./Szereplő.java
+./Labirintus.java
+./Kincs.java

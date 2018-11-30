@@ -1,0 +1,29 @@
+//
+// labirintus.txt
+//
+// DIGIT 2005, Javat tanítok
+// Bátfai Norbert, nbatfai@inf.unideb.hu
+//
+// A labirintus szerkezetét megadó állomány, szerkezete a következő:
+// a kincsek száma
+// a szörnyek száma
+// a labirintus szélessége
+// magassága
+// fal=1 járat=0 ... 
+// .
+// .
+// .
+6
+3
+10
+10
+0 0 0 1 0 1 0 1 1 1
+0 0 0 0 0 0 0 0 0 0
+1 0 1 0 1 0 1 0 1 0
+0 0 0 0 1 0 1 0 0 0
+0 1 1 0 0 0 1 1 0 1
+0 0 0 0 1 0 0 0 0 0
+0 1 0 0 0 1 0 1 1 0
+0 0 0 1 0 1 0 1 0 0
+0 1 0 0 0 0 0 0 0 1
+0 0 0 0 1 0 0 0 1 1

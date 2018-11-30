@@ -1,0 +1,2 @@
+depth_map_runner.py példa lefuttatása és  rövid magyarázat.
+python helyett python3 al kell futtatni a példákat.

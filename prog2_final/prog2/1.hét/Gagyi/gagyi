@@ -1,0 +1,3 @@
+a két integernél két új objektum jön létre, máshol a tárban más "mem.címmel" persze, így a hasonlításuk hamis lesz, hiszen különböző objectek, különböző "címmel".
+
+A másik esetben (a -128 esetén) pedig ugyanarra a számra ugyanazt az objectet adja, hiszen csak kiveszi a kész konzerv integert a poolból, így nyilván ez a két cím meg == lesz

@@ -1,0 +1,16 @@
+A példák jelen forrásainak elkészítésénél úgy jártunk el, 
+hogy a forrásokat magából a kézikönyvbõl másoltuk (és 
+próbáltuk) ki, így a kedves Olvasónak nem lehet gondja a 
+példák kipróbálásával, ha követi a kézikönyv utasításait.
+
+A javattanitok könyvtárban találjuk a labirintusos
+példákat. Ezek közül azokat gyûjtöttük ki ide a kézikönyvbõl,
+amelyek kipróbálása a kézikönyv fõ sodrában le van írva.
+(De  például a szintén labirintusos LabirintusAlkalmazás.java
+forrást nem vettük ide, az csak a kézikönyvben szerepel.)
+
+A nehany_egyeb_pelda könyvtárba pedig a kézikönyv számos egyéb
+példája közül csupán néhány kiválasztottat válogattunk be. A
+többi esetén azt az általános elvet kövessük, hogy a forrást
+vágjuk ki a kézikönyv (pl. böngészhetõ) változatából és a 
+kipróbálással kövessük a kézikönyv utasításait.

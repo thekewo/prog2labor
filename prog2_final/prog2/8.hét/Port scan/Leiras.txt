@@ -1,0 +1,3 @@
+A függvény 0 - 1024-ig végignézi a portokat, hogy melyiken tud létrehozni kapcsolatot. A socket létrehozásakor 2 argumentumú konstruktort használunk.
+ Az első a hostnak a neve, a második pedig a portnak a száma. Ha tudunk létesíteni kapcsolatot, akkor egyszerűen kiirjuk, hogy az a port figyeli, és le is
+ zárjuk azt, ha sikertelen, a próbálkozás, akkor pedig azt iratjuk ki, hogy sikertelen.

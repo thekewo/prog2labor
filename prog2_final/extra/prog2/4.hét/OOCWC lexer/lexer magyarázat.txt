@@ -1,0 +1,1 @@
+Egy lexer átalakít karakterek sorozatát, tokenek sorozatává(stringek amik egyértelmű értelmezéssel rendelkeznek).

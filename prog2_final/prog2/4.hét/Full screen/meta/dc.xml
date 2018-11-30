@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<simpledc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://dublincore.org/schemas/xmls/qdc/2003/04/02/simpledc.xsd">
+  <dc:title xml:lang="hu">Javát tanítok</dc:title>
+  <dc:creator xml:lang="hu">Bátfai Norbert</dc:creator>
+  <dc:creator xml:lang="hu">Juhász István</dc:creator>
+  <dc:subject xml:lang="hu">Bevezetés a programozásba a Turing gépektől a CORBA technológiáig</dc:subject>
+  <dc:subject xml:lang="hu">programozás</dc:subject>
+  <dc:subject xml:lang="hu">Java</dc:subject>
+  <dc:description xml:lang="hu">        
+        A programozásra gondolva olykor valami misztikus érzés 
+        járja át az embert, ami további hajtóerőt és lelkesedést kölcsönöz. 
+        A sikeres oktatás elsődleges célja ennek átadása, ebből fejlődhet 
+        majd ki minden más, ami csak kell: az ipar számára a 
+        professzionális programozó, a tudománynak és az emberiségnek a 
+        komplex problémákkal megküzdeni tudó algoritmuselmélész, az 
+        egyénnek és a társadalomnak a boldog és tetterős polgár. 
+        Reményeink szerint ennek az érzésnek az átadásához ezzel a 
+        digitális szakkönyvvel mi is hozzá tudunk járulni, miközben 
+        általában foglalkozunk a programozással, annak elméletével és filozófiájával, 
+        majd részletesen és 
+        gyakorlatiasan az objektumorientált paradigmával, és ezen belül a 
+        Java programozással. Ebben a kézikönyvben a Java nyelvvel egy 
+        labirintus játék világának felépítése során ismerkedünk meg, ami 
+        során ezt az egyszerű, példa labirintus játékot elkészítjük a weboldalon 
+        elhelyezhető appletként, mobiltelefonos és teljes képernyős PC-s, illetve 
+        hálózati: TCP/IP, Java Servlet, Java RMI és CORBA változatban is. De 
+        ezeken a labirintus témájú esettanulmányokon túl biológiai, matematikai és 
+        informatikai programozási példákkal is megismerkedhet majd a 
+        kedves Olvasó. A könyvet elsősorban tanári kézikönyvként ajánljuk 
+        középiskolai informatikatanároknak, de kiegészítő irodalomként hasznos 
+        olvasmánynak tartjuk informatikus tanárjelöltek, diákok és általában a 
+        programozni tanulni vágyók számára egyaránt.
+    </dc:description>
+  <dc:publisher xml:lang="hu">Kempelen Farkas Hallgatói Információs Központ</dc:publisher>
+  <dc:contributor>
+  </dc:contributor>
+  <dc:type>Text</dc:type>
+  <dc:format>text/xml</dc:format>
+  <dc:identifier>[URI]</dc:identifier>
+  <dc:source>
+  </dc:source>
+  <dc:date>2007-03-27</dc:date>
+  <dc:language>hu</dc:language>
+</simpledc>

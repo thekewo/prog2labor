@@ -1,0 +1,4 @@
+9.hét python
+MNIST TF HelloWorld3
+Deep MNIST Tensorflow github examples/tutorials/mnist/mnist-deep.py
+2 példa lefuttatása

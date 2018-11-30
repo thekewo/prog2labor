@@ -1,0 +1,33 @@
+A választ a JDK forrásaiban, konrétan a java/lang/Integer.java forrásban a
+
+public static Integer valueOf(int i) {
+if (i >= IntegerCache.low && i <= IntegerCache.high)
+return IntegerCache.cache[i + (-IntegerCache.low)];
+return new Integer(i);
+}
+
+
+
+vegyük a -129 esetet, ami fagy, azaz végtelen ciklus, ekkor
+
+i-ben a -129 van
+
+public static Integer valueOf(int i) {
+
+amivel ez az if
+if (i >= IntegerCache.low && i <= IntegerCache.high)
+
+nem teljesül (ellenőrizd az Integer.java forrásban!)
+
+return IntegerCache.cache[i + (-IntegerCache.low)];
+
+tehát ez fog lefutni mindkét esetben, amikor a Gagyi progiban csináljuk a két Integert
+
+return new Integer(i);
+}
+
+ ebbben az Integer cache-ben vannak előre elkészített Integer osztálybeli objektumok (feltételezhetjük, hogy a Java feltételezi, hogy a programok sokat dolgoznak kis számokkal, ezekből, ha Integer kell, akkor nem nyúzik új objecteket, hanem kivesz a poolból már készet.
+
+A válasz innen már trivi: a két integernél két új objektum jön létre, máshol a tárban más "mem.címmel" persze, így a hasonlításuk hamis lesz, hiszen különböző objectek, különböző "címmel".
+
+A másik esetben (a -128 esetén) pedig ugyanarra a számra ugyanazt az objectet adja, hiszen csak kiveszi a kész konzerv integert a poolból, így nyilván ez a két cím meg == lesz. Ennyi.

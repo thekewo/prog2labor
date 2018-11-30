@@ -1,0 +1,9 @@
+﻿Future nem lehet átrendezni
+Felső rész
+
+lexer hálózatkezelés visszacsatolás magyarázat
+https://github.com/nbatfai/robocar-emulator/tree/master/justine/rcemu/src
+
+
+ipcamera telefon samucam
+carlexer:https://www.geeksforgeeks.org/g-fact-31/

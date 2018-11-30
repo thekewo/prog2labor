@@ -1,0 +1,10 @@
+http://tutorials.jenkov.com/java-collections/list.html
+
+
+ The Java List interface, java.util.List, represents an ordered sequence of objects. The elements contained in a Java List can be inserted, accessed, iterated and removed according to the order in which they appear internally in the Java List. The ordering of the elements is why this data structure is called a List.
+
+Each element in a Java List has an index. The first element in the List has index 0, the second element has index 1 etc. The index means "how many elements away from the beginning of the list". The first element is thus 0 elements away from the beginning of the list - because it is at the beginning of the list.
+
+You can add any Java object to a List. If the List is not typed, using Java Generics, then you can even mix objects of different types (classes) in the same List. Mixing objects of different types in the same List is not often done in practice, however.
+
+The Java List interface is a standard Java interface, and it is a subtype of the Java Collection interface, meaning List inherits from Collection. 
