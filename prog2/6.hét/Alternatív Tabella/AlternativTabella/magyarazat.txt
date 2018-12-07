@@ -1,5 +1,0 @@
-A Csapat class azért implementálja a Compareable-t, hogy meg tudjuk adni, hogy mi alapján hasonlítsa össze a csapatokat. Jelen esetben a compareTo
-függvény úgy van megváltoztatva, hogy a Csapatokat a hozzájuk rendelt érték alapján vesse össze.
-
-Ebben a példában a java.util.Collections.sort(rendezettCsapatok); sor miatt lényeges, mert a sort függvény alapja ,hogy a rendezendő dolgok 
-összehasonlíthatóak legyenek.

@@ -1,2 +1,0 @@
-https://github.com/nbatfai/esport-talent-search/blob/master/BrainBThread.h  79.sor
-http://doc.qt.io/archives/qt-4.8/signalsandslots.html

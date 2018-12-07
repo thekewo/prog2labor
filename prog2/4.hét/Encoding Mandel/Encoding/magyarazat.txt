@@ -1,7 +1,0 @@
-A JRE telepítésekor kiválaszt az operációs rendszer alapján egy karakterkódolást. Azért maradhat benne az ékezet, mert érzékelte a magyar nyelvet.
-A pelda.java program megmutatja az alapértelmezett kódolást.Ha a kódolást megváltoztatnánk olyanra, amely nem tartalmazza az ékezeteket, akkor nem fordulna le
-
-
-"By default, the JRE 8 installer installs a European languages version if it recognizes that the host operating system only supports European languages."
-
-https://docs.oracle.com/javase/8/docs/technotes/guides/intl/encoding.doc.html
